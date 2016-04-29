@@ -8,19 +8,10 @@ baseurl: 					""
 logourl: 					"favicon.ico"
 paginate: 					10
 paginate_path: 				"/log/page:num"
-permalink: 					log/:title
 
 # Author Settings
 author_name: 				"Jeehon"
 author_url: 				"http://Jeehon.info"
-
-# Theme Settings
-theme_disqus_shortname: 	"whitePage"
-theme_google_comments: 		false
-theme_reading_time: 		true
-theme_autoload_comments: 	true
-theme_always_show_nav: 		true
-
 
 # SASS Settings
 # DO NOT MODIFY
@@ -31,4 +22,4 @@ sass:
 
 # Build Settings
 markdown: 					kramdown
-
+permalink: 					log/:title
