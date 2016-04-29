@@ -1,5 +1,3 @@
-gems:  - jekyll-sitemap
-
 # Site Settings
 title: 						"Jeehon Blog"
 url:						"http://jeehon.github.io"
@@ -21,4 +19,4 @@ sass:
 
 # Build Settings
 markdown: 					kramdown
-permalink: 					log/:title
+permalink: 					none
