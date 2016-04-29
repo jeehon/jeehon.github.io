@@ -1,6 +1,3 @@
-# External Gems
-gems: 						[jekyll-paginate]
-
 # Site Settings
 title: 						"Jeehon Blog"
 url:						"http://jeehon.github.io"
