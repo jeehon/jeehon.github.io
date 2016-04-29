@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section id="main" class="content">
+	{% for post in site.posts limit:5 %}
+		<article id="post-{{post.id}}" class="entry">
+			<header class="entry-head">
+				<div class="meta-date">
+					<span class="meta-month">{{ post.date | date: "%m" }}</span>
+					<br />
+					<span class="meta-day">{{ post.date | date: "%d" }}</span>
+				</div>
+				<h2 class="entrytitle" id="post-{{post.id}}">
+					<a title="{{ post.title }}" href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+				</h2>
+				<p>
+					<span class="meta-category">{{ post.categories }}</span>
+					<span>|</span>
+					<span class="meta-comment">{{ post.comments }} Comments</span>
+				</p>
+			</header>
+			<section class="entry-body">
+				{{ post.excerpt }}
+				<a href="{{ post.url }}" class="more-link">Read the rest of this entry »</a>
+			</section>
+		</article>
+	{% endfor %}
+</section>
+</section>

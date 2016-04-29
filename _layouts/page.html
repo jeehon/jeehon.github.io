@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section id="single" class="content">
+	<article id="post-{{ page.id }}" class="entry">
+		<header class="entry-head">
+			<div class="meta-date">
+				<span class="meta-month">{{ page.date | date: "%m" }}</span>
+				<br />
+				<span class="meta-day">{{ page.date | date: "%d" }}</span>
+			</div>
+			<h2 class="entrytitle" id="post-{{ page.id }}">
+				<a title="{{ page.title }}" href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
+			</h2>
+			<p>
+				<span class="meta-time">Year {{ page.date | date: "%Y" }}</span>
+				<span>|</span>
+				<span class="meta-author"><a href="{{ site.author_url }}" target="_blank">{{ site.author_name }}</a></span>
+				<span>|</span>
+				<span class="meta-category">{{ page.categories }}</span>
+			</p>
+		</header>
+		<section class="entry-body">
+			{{ page.content }}
+		</section>
+		
+		{% if page.comments %}
+		<div class="comments">
+			<a href="javascript:;" class="readmore smallbutton blue"><i class="fa fa-comments"></i>View Comments...</a>
+			<div id="disqus_thread"></div>
+			<div id="g-comments"></div>
+		</div>
+		{% endif %}
+	</article>
+</section>
