@@ -2,29 +2,55 @@
 layout: homepage
 ---
 
-<section id="main" class="content">
-	{% for post in site.posts limit:5 %}
-		<article id="post-{{post.id}}" class="entry">
-			<header class="entry-head">
-				<div class="meta-date">
-					<span class="meta-month">{{ post.date | date: "%m" }}</span>
-					<br />
-					<span class="meta-day">{{ post.date | date: "%d" }}</span>
-				</div>
-				<h2 class="entrytitle" id="post-{{post.id}}">
-					<a title="{{ post.title }}" href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-				</h2>
-				<p>
-					<span class="meta-category">{{ post.categories }}</span>
-					<span>|</span>
-					<span class="meta-comment">{{ post.comments }} Comments</span>
-				</p>
-			</header>
-			<section class="entry-body">
-				{{ post.excerpt }}
-				<a href="{{ post.url }}" class="more-link">Read the rest of this entry »</a>
-			</section>
-		</article>
-	{% endfor %}
-</section>
+<div class="container">
+	<h1 class="logo">Jeehon</h1>
+	<ul class="unit-list">
+		<li class="unit bg-pink">
+			<a href="http://jeehon.info/themes"><i class="ico ico-theme"></i></a>
+			<!-- 动态加载 开始 -->
+			<div class="tips">
+				<b class="trig"></b><span>WordPress主题站</span>
+			</div>
+			<!-- 动态加载 结束 -->
+		</li>
+		<li class="unit-2 bg-purple"><a href="http://www.weibo.com/jeehon"><i class="ico ico-weibo"></i><span class="txt">Weibo</span></a>
+			<!-- 动态加载 开始 -->
+			<div class="tips">
+				<b class="trig"></b><span>Jeehon的微博</span>
+			</div>
+			<!-- 动态加载 结束 -->
+		</li>
+		<li class="unit bg-red"><a href="http://jeehon.info/journey"><i class="ico ico-photo"></i></a>
+            <!-- 动态加载 开始 -->
+            <div class="tips">
+                <b class="trig"></b><span>My Journey</span>
+            </div>
+            <!-- 动态加载 结束 -->
+        </li>
+		<li class="unit-2 bg-deepgreen"><a href="http://jeehon.info/works"><i class="ico ico-rp"></i><span class="txt">Work</span></a>
+            <!-- 动态加载 开始 -->
+            <div class="tips">
+                <b class="trig"></b><span>Jeehon的作品</span>
+            </div>
+            <!-- 动态加载 结束 -->
+        </li>
+		<li class="unit-3 bg-pink"></li>
+		<li class="unit-2 bg-blue">
+			<a href="http://jeehon.info/log"><i class="ico ico-rss"></i><span class="txt">Blog</span></a>
+			<!-- 动态加载 开始 -->
+			<div class="tips">
+				<b class="trig"></b><span>Jeehon的博客</span>
+			</div>
+			<!-- 动态加载 结束 -->
+		</li>
+		<li class="unit bg-green"></li>
+		<li class="unit bg-darkpurple"></li>
+		<li class="unit-2 bg-bluegreen">
+			<div class="txtinfo">
+				<h4>Jeehon</h4>
+				<p>爱微博，爱看书，爱电影，爱音乐，爱摄影，爱编程 <a href="http://jeehon.info/log/about/">更多&gt;</a></p>
+			</div>
+		</li>
+	</ul>
+</div>
 </section>
