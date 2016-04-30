@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<meta name="description" content="{{ site.description }}" />
+
+		<meta name="HandheldFriendly" content="True" />
+		<meta name="MobileOptimized" content="320" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+		<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.url }}">
+		<link rel="prefetch" href="{{ site.baseurl }}">
+		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ "/assets/css/win8.css" | prepend: site.url }}">
+		<script type="text/javascript" src="{{ "/assets/js/jquery-1.6.4.min.js" | prepend: site.url }}"></script>
+	</head>
+	<body>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.unit-list li.unit a,.unit-list li.unit-2 a').siblings().hide().css({opacity:0, top:0});
+			$('.unit-list li.unit a,.unit-list li.unit-2 a').hover(function(){
+				$(this).siblings().animate({opacity:1, top:'-45px'}, 'normal').show();
+			},function(){
+				$(this).siblings().stop();  //鼠标移动过于快速时，阻止mouseover正执行的animate动画
+				$(this).siblings().css({opacity:0, top:0, display:'none'})
+			});
+		});
+	</script>
+
+	{{ content }}
+
+	{% include footer.html %}
+
+  </body>
+</html>

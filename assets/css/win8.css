@@ -1,0 +1,104 @@
+/*
+Theme Name: Win8UI
+Version: 1.0
+Author: Jeehon
+Author URI: http://jeehon.info/
+Description: A simple and nice Win8UI, designed by <a href="http://yuguo.us/">Yuguo</a> and <a href="http://jeehon.info/">Jeehon</a>.
+Tags: homepage,jeehon,Win8
+*/
+
+/* reset
+ *---------------------------------------------------------------------------------*/
+html {font-size: 62.5%;} /* Font sizing with rem http://snook.ca/archives/html_and_css/font-size-with-rem */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,input,button, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video{margin: 0;padding: 0;}
+body{line-height:1.333;font-size:12px;font-size:1.2rem;}
+h1, h2, h3, h4, h5, h6{font-size:100%}
+a {text-decoration:none;}
+li {list-style: none;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+
+/* 结构
+ *---------------------------------------------------------------------------------*/
+body {background: url(./img/bg.png) repeat;font-family: Verdana, Geneva, sans-serif;}
+.container {overflow:hidden;width:960px;padding: 0 20px;}
+@media only screen and (min-width: 1001px){/* 宽度大于1001像素的时候 */
+     .container {width:960px;padding: 0 20px;}
+}
+
+@media only screen and (min-width:631px) and (max-width: 980px){/* 宽度介于611和980像素的时候 */
+     .container {width:630px;margin: 0 auto;}
+}
+
+@media only screen and (max-width: 630px){/* 宽度小于610的时候 */
+     .container {width:310px;margin: 0 auto;}
+}
+
+h1.logo {font-size:56px;font-size:5.6rem;color:#dbe8e1;margin: 50px 0 60px;font-weight:normal;}
+
+/* 列表
+ *---------------------------------------------------------------------------------*/
+.unit-list {margin-right:-10px;*zoom:1;}
+.unit-list:after{display: table;content:"";clear:both;}
+.unit-list li{display:block;float: left;margin-right:10px;margin-bottom:10px;height:150px;position:relative;}
+.unit-list .unit {width:150px;}
+.unit-list .unit a {display:block;height:150px;width:150px;float:left;z-index:100;position:relative;}/*后两个属性设定与tips的层叠关系*/
+.unit-list .unit .ico {margin:43px;height:64px;width:64px;display:block;overflow:hidden;}
+.unit-list .unit-2 {width:310px;position:relative;}
+.unit-list .unit-2 a {display:block;height:150px;width:310px;float:left;}
+.unit-list .unit-2 .ico {margin:43px;height:64px;width:64px;display:block;overflow:hidden;}
+.unit-list .unit-2 .txt {font-size:36px;color:#fff;position:absolute;top:50px;left:120px;}
+.unit-list .unit-2 .txtarea {font-size:12px;color:#fff;position:absolute;top:50px;left:120px;width:180px;line-height:2;}
+.unit-list .unit-2 .txtinfo {padding: 15px 46px;color:#fff;}
+.unit-list .unit-2 .txtinfo h4 {font-size:30px;font-weight:normal;margin-bottom:5px;;}
+.unit-list .unit-2 .txtinfo p {font-size:14px;font-weight:normal;margin-bottom:5px;;}
+.unit-list .unit-2 .txtinfo a {display:inline;float:none;color:#fff;text-decoration:underline;}
+.unit-list .unit-3{width:470px;height:310px;position:relative;background-image:url(./img/ico-logo.jpg)}
+
+/* icons
+ *---------------------------------------------------------------------------------*/
+.ico-theme {background-image: url(./img/ico-yuguotheme.png);}
+.ico-note {background-image: url(./img/ico-note.png);}
+.ico-rss {background-image: url(./img/ico-blog.png);}
+.ico-photo {background-image: url(./img/ico-photo.png);}
+.ico-rp {background-image: url(./img/ico-work.png);}
+.ico-weibo {background-image: url(./img/ico-weibo.png);}
+.ico-portfolio {background-image: url(./img/ico-portfolio.png);}
+.ico-mail {background-image: url(./img/ico-mail.png);}
+
+/* 动态tips
+*----------------------------------------------------------------------------------*/
+.unit-list .unit .tips {width:130px;z-index:0;}
+.unit-list .unit-2 .tips {width:290px;}
+.tips {position:absolute;top:-45px;left:0;font-size:14px;color:#fff;padding:5px 10px;background-color:#00b8e1;}
+.tips .trig {width:0;height:0;overflow:hidden;font-size:0;display:inline-block;border-left:10px solid #00b8e1;border-bottom:10px dashed transparent;
+position:absolute;bottom:-10px;left:0;}
+.hidden {display:none;}
+
+/* color
+ *---------------------------------------------------------------------------------*/
+.bg-blue {background-color: #00b8e1}
+.bg-green {background-color:#609725 }
+.bg-deepgreen{background-color: #009bad}
+.bg-red{background-color: #be203d;}
+.bg-grey{background-color:#59686b; }
+.bg-purple{background-color:#5a37b5; }
+.bg-pink{background-color:#f180a4 }
+.bg-darkpurple{background-color:#6b0166 }
+.bg-bluegreen{background-color:#018479 }
+.bg-deepblue{background-color:#13196f}
+
+/* code is poetry */
