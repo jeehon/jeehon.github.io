@@ -66,18 +66,18 @@ h1.logo {font-size:56px;font-size:5.6rem;color:#dbe8e1;margin: 50px 0 60px;font-
 .unit-list .unit-2 .txtinfo h4 {font-size:30px;font-weight:normal;margin-bottom:5px;;}
 .unit-list .unit-2 .txtinfo p {font-size:14px;font-weight:normal;margin-bottom:5px;;}
 .unit-list .unit-2 .txtinfo a {display:inline;float:none;color:#fff;text-decoration:underline;}
-.unit-list .unit-3{width:470px;height:310px;position:relative;background-image:url(./img/ico-logo.jpg)}
+.unit-list .unit-3{width:470px;height:310px;position:relative;background-image:url(/assets/img/ico-logo.jpg)}
 
 /* icons
  *---------------------------------------------------------------------------------*/
-.ico-theme {background-image: url(./img/ico-yuguotheme.png);}
-.ico-note {background-image: url(./img/ico-note.png);}
-.ico-rss {background-image: url(./img/ico-blog.png);}
-.ico-photo {background-image: url(./img/ico-photo.png);}
-.ico-rp {background-image: url(./img/ico-work.png);}
-.ico-weibo {background-image: url(./img/ico-weibo.png);}
-.ico-portfolio {background-image: url(./img/ico-portfolio.png);}
-.ico-mail {background-image: url(./img/ico-mail.png);}
+.ico-theme {background-image: url(/assets/img/ico-yuguotheme.png);}
+.ico-note {background-image: url(/assets/img/ico-note.png);}
+.ico-rss {background-image: url(/assets/img/ico-blog.png);}
+.ico-photo {background-image: url(/assets/img/ico-photo.png);}
+.ico-rp {background-image: url(/assets/img/ico-work.png);}
+.ico-weibo {background-image: url(/assets/img/ico-weibo.png);}
+.ico-portfolio {background-image: url(/assets/img/ico-portfolio.png);}
+.ico-mail {background-image: url(/assets/img/ico-mail.png);}
 
 /* 动态tips
 *----------------------------------------------------------------------------------*/
