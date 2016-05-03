@@ -4,8 +4,6 @@ title: 新学期
 date: 2012-02-11T16:41:23+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1066
-permalink: /2012/02/11/new-session/
 categories:
   - 分享
   - 生活

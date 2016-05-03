@@ -4,8 +4,6 @@ title: 远距离翻转
 date: 2011-05-25T14:23:15+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=541
-permalink: /2011/05/25/%e8%bf%9c%e8%b7%9d%e7%a6%bb%e7%bf%bb%e8%bd%ac/
 categories:
   - CSS
   - 分享

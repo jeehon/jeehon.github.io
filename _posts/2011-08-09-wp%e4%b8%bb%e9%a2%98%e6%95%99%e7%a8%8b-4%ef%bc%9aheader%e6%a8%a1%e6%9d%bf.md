@@ -4,8 +4,6 @@ title: 'WP主题教程 #4：Header模板'
 date: 2011-08-09T02:45:36+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=701
-permalink: /2011/08/09/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-4%ef%bc%9aheader%e6%a8%a1%e6%9d%bf/
 categories:
   - CSS
   - wordpress

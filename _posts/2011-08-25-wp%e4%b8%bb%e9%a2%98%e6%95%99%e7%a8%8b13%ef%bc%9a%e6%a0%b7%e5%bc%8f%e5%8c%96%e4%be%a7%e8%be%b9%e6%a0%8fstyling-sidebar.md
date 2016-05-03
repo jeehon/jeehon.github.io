@@ -4,8 +4,6 @@ title: 'WP主题教程#13：样式化侧边栏(Styling Sidebar)'
 date: 2011-08-25T14:57:50+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=889
-permalink: /2011/08/25/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b13%ef%bc%9a%e6%a0%b7%e5%bc%8f%e5%8c%96%e4%be%a7%e8%be%b9%e6%a0%8fstyling-sidebar/
 categories:
   - CSS
   - wordpress

@@ -4,8 +4,6 @@ title: 来苏州的这两年
 date: 2015-10-22T04:26:21+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1333
-permalink: /2015/10/22/lifeinsuzhou/
 categories:
   - 生活
   - 追忆

@@ -4,8 +4,6 @@ title: 网站性能优化实战一
 date: 2012-03-05T10:19:01+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1078
-permalink: /2012/03/05/webperformance/
 categories:
   - 分享
   - 学习

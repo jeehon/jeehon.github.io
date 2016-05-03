@@ -4,8 +4,6 @@ title: 让你的佳能相机更强力 -CHDK（转）
 date: 2010-08-04T14:53:29+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=371
-permalink: /2010/08/04/%e8%ae%a9%e4%bd%a0%e7%9a%84%e4%bd%b3%e8%83%bd%e7%9b%b8%e6%9c%ba%e6%9b%b4%e5%bc%ba%e5%8a%9b-chdk%ef%bc%88%e8%bd%ac%ef%bc%89/
 tb_tweet:
   - yes
   - yes

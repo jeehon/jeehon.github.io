@@ -4,8 +4,6 @@ title: .NET MVC中Controller和View之间的数据传送
 date: 2012-11-25T07:17:46+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1189
-permalink: /2012/11/25/net-mvc-controller-view/
 categories:
   - .NET MVC
   - 分享

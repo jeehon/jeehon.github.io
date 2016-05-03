@@ -4,8 +4,6 @@ title: 最近的自己
 date: 2012-03-25T07:59:14+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1098
-permalink: /2012/03/25/myself-nowadays/
 categories:
   - 分享
   - 生活

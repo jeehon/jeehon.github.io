@@ -4,8 +4,6 @@ title: 'WP主题教程 #3：开始Index.php'
 date: 2011-08-08T02:09:28+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=689
-permalink: /2011/08/08/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-3%ef%bc%9a%e5%bc%80%e5%a7%8bindex-php/
 categories:
   - CSS
   - wordpress

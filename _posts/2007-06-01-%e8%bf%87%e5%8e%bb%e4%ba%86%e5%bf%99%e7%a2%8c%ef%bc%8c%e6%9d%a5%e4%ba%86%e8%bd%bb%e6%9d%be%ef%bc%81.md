@@ -4,8 +4,6 @@ title: 过去了忙碌，来了轻松！
 date: 2007-06-01T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,118708929.shtml
-permalink: /2007/06/01/%e8%bf%87%e5%8e%bb%e4%ba%86%e5%bf%99%e7%a2%8c%ef%bc%8c%e6%9d%a5%e4%ba%86%e8%bd%bb%e6%9d%be%ef%bc%81/
 categories:
   - 我的大学
 ---

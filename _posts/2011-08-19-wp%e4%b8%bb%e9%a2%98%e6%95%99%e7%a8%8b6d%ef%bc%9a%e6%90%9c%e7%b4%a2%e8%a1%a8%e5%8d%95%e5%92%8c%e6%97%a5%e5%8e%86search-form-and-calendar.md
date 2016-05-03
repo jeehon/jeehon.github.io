@@ -4,8 +4,6 @@ title: 'WP主题教程#6d：搜索表单和日历(Search Form and Calendar)'
 date: 2011-08-19T01:50:30+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=823
-permalink: /2011/08/19/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b6d%ef%bc%9a%e6%90%9c%e7%b4%a2%e8%a1%a8%e5%8d%95%e5%92%8c%e6%97%a5%e5%8e%86search-form-and-calendar/
 categories:
   - CSS
   - wordpress

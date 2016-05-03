@@ -4,8 +4,6 @@ title: Appreciate your love！
 date: 2010-01-19T16:37:49+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/?p=50
-permalink: /2010/01/19/appreciate-your-love%ef%bc%81/
 categories:
   - 生活
 tags:

@@ -4,8 +4,6 @@ title: 年的记忆，家的味道
 date: 2016-03-17T13:59:44+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1355
-permalink: /2016/03/17/memoryofnewyear/
 categories:
   - 生活
   - 追忆

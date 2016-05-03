@@ -4,8 +4,6 @@ title: 指缝里滑落的一个月
 date: 2013-11-18T15:29:46+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1269
-permalink: /2013/11/18/one-month-passed/
 categories:
   - 分享
   - 生活

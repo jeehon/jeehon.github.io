@@ -4,8 +4,6 @@ title: 'WP主题教程#16：评论模板（Comments Template）'
 date: 2011-08-29T02:08:25+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=923
-permalink: /2011/08/29/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b16%ef%bc%9a%e8%af%84%e8%ae%ba%e6%a8%a1%e6%9d%bf%ef%bc%88comments-template%ef%bc%89/
 categories:
   - CSS
   - wordpress

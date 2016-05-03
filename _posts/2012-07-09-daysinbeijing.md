@@ -4,8 +4,6 @@ title: 帝都的这些日子
 date: 2012-07-09T13:59:29+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1130
-permalink: /2012/07/09/daysinbeijing/
 categories:
   - 分享
   - 实习

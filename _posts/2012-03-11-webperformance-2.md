@@ -4,8 +4,6 @@ title: 网站性能优化实战二
 date: 2012-03-11T06:36:00+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1092
-permalink: /2012/03/11/webperformance-2/
 categories:
   - PHP
   - wordpress

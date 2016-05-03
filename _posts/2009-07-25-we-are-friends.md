@@ -4,8 +4,6 @@ title: We Are Friends
 date: 2009-07-25T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,27064946.shtml
-permalink: /2009/07/25/we-are-friends/
 categories:
   - 其他
 tags:

@@ -4,8 +4,6 @@ title: STC-Family Day
 date: 2012-06-08T16:59:11+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1127
-permalink: /2012/06/08/stc-family-day/
 categories:
   - 分享
   - 生活

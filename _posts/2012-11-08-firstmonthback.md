@@ -4,8 +4,6 @@ title: 实习归来的第一个月
 date: 2012-11-08T03:02:34+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1179
-permalink: /2012/11/08/firstmonthback/
 categories:
   - 分享
   - 生活

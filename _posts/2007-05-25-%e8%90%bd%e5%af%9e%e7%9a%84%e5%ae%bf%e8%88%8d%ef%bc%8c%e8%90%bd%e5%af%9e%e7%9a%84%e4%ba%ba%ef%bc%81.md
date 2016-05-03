@@ -4,8 +4,6 @@ title: 落寞的宿舍，落寞的人！
 date: 2007-05-25T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,118709049.shtml
-permalink: /2007/05/25/%e8%90%bd%e5%af%9e%e7%9a%84%e5%ae%bf%e8%88%8d%ef%bc%8c%e8%90%bd%e5%af%9e%e7%9a%84%e4%ba%ba%ef%bc%81/
 categories:
   - 我的大学
 ---

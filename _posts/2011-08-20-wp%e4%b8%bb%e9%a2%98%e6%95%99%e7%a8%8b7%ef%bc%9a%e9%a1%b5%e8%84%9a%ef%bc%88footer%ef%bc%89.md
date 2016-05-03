@@ -4,8 +4,6 @@ title: 'WP主题教程#7：页脚（Footer）'
 date: 2011-08-20T16:05:52+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=844
-permalink: /2011/08/20/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b7%ef%bc%9a%e9%a1%b5%e8%84%9a%ef%bc%88footer%ef%bc%89/
 categories:
   - CSS
   - wordpress

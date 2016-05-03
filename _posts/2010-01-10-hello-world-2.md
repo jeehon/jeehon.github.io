@@ -4,8 +4,6 @@ title: Hello World!
 date: 2010-01-10T16:51:12+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/?p=15
-permalink: /2010/01/10/hello-world-2/
 categories:
   - 生活
 tags:

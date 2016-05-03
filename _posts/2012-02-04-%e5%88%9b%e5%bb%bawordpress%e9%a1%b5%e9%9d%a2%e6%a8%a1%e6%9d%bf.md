@@ -4,8 +4,6 @@ title: 创建WordPress页面模板
 date: 2012-02-04T10:00:59+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1030
-permalink: /2012/02/04/%e5%88%9b%e5%bb%bawordpress%e9%a1%b5%e9%9d%a2%e6%a8%a1%e6%9d%bf/
 categories:
   - PHP
   - wordpress

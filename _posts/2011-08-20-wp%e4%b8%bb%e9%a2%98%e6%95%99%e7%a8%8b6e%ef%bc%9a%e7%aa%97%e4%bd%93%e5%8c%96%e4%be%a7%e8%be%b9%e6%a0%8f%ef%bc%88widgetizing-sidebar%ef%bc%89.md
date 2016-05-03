@@ -4,8 +4,6 @@ title: 'WP主题教程#6e：窗体化侧边栏（Widgetizing Sidebar）'
 date: 2011-08-20T02:20:36+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=837
-permalink: /2011/08/20/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b6e%ef%bc%9a%e7%aa%97%e4%bd%93%e5%8c%96%e4%be%a7%e8%be%b9%e6%a0%8f%ef%bc%88widgetizing-sidebar%ef%bc%89/
 categories:
   - CSS
   - wordpress

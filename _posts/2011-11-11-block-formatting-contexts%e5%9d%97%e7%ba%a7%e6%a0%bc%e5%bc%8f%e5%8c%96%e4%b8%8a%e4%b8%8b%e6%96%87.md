@@ -4,8 +4,6 @@ title: Block Formatting Contexts(块级格式化上下文)
 date: 2011-11-11T09:40:47+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=956
-permalink: /2011/11/11/block-formatting-contexts%e5%9d%97%e7%ba%a7%e6%a0%bc%e5%bc%8f%e5%8c%96%e4%b8%8a%e4%b8%8b%e6%96%87/
 categories:
   - CSS
   - 分享

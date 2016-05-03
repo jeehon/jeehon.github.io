@@ -4,8 +4,6 @@ title: 幽默的英语课！
 date: 2007-05-25T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,118709083.shtml
-permalink: /2007/05/25/%e5%b9%bd%e9%bb%98%e7%9a%84%e8%8b%b1%e8%af%ad%e8%af%be%ef%bc%81/
 categories:
   - 其他
 ---

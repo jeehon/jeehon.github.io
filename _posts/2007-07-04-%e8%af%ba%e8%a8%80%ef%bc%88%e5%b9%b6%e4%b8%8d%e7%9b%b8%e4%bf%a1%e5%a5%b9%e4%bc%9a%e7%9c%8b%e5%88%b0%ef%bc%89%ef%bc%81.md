@@ -4,8 +4,6 @@ title: 诺言（并不相信她会看到）！
 date: 2007-07-04T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,8288133.shtml
-permalink: /2007/07/04/%e8%af%ba%e8%a8%80%ef%bc%88%e5%b9%b6%e4%b8%8d%e7%9b%b8%e4%bf%a1%e5%a5%b9%e4%bc%9a%e7%9c%8b%e5%88%b0%ef%bc%89%ef%bc%81/
 categories:
   - 我的生活
 tags:

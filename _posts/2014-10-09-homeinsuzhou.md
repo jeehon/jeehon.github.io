@@ -4,8 +4,6 @@ title: 家·苏州
 date: 2014-10-09T10:46:58+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1294
-permalink: /2014/10/09/homeinsuzhou/
 categories:
   - 生活
   - 追忆

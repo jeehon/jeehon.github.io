@@ -4,8 +4,6 @@ title: 写在出发之前
 date: 2013-10-28T13:44:09+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1263
-permalink: /2013/10/28/beforeleave/
 categories:
   - 分享
   - 生活

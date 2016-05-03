@@ -4,8 +4,6 @@ title: 丫头，对不起！
 date: 2007-10-10T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,11120054.shtml
-permalink: /2007/10/10/%e4%b8%ab%e5%a4%b4%ef%bc%8c%e5%af%b9%e4%b8%8d%e8%b5%b7%ef%bc%81/
 categories:
   - 我的生活
 tags:

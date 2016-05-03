@@ -4,8 +4,6 @@ title: 十一前后
 date: 2012-10-08T09:41:00+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1157
-permalink: /2012/10/08/around-national-day-2/
 categories:
   - 生活
   - 追忆

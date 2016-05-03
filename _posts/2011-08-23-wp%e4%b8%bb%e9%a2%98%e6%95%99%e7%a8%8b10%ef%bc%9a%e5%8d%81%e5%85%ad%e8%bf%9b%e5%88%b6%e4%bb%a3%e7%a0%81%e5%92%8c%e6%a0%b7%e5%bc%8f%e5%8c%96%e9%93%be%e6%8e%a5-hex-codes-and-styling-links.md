@@ -4,8 +4,6 @@ title: 'WP主题教程#10：十六进制代码和样式化链接 (Hex Codes and 
 date: 2011-08-23T03:22:22+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=869
-permalink: /2011/08/23/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b10%ef%bc%9a%e5%8d%81%e5%85%ad%e8%bf%9b%e5%88%b6%e4%bb%a3%e7%a0%81%e5%92%8c%e6%a0%b7%e5%bc%8f%e5%8c%96%e9%93%be%e6%8e%a5-hex-codes-and-styling-links/
 categories:
   - CSS
   - wordpress

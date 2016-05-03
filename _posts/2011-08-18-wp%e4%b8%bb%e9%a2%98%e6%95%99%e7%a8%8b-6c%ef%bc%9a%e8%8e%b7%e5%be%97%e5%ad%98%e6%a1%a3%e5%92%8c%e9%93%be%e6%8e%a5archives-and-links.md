@@ -4,8 +4,6 @@ title: 'WP主题教程 #6c：获得存档和链接(Archives and Links)'
 date: 2011-08-18T02:02:38+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=814
-permalink: /2011/08/18/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-6c%ef%bc%9a%e8%8e%b7%e5%be%97%e5%ad%98%e6%a1%a3%e5%92%8c%e9%93%be%e6%8e%a5archives-and-links/
 categories:
   - CSS
   - wordpress

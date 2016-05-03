@@ -4,8 +4,6 @@ title: 想制作WordPress主题？
 date: 2011-08-04T14:45:03+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=660
-permalink: /2011/08/04/%e6%83%b3%e5%88%b6%e4%bd%9cwordpress%e4%b8%bb%e9%a2%98%ef%bc%9f/
 categories:
   - CSS
   - wordpress

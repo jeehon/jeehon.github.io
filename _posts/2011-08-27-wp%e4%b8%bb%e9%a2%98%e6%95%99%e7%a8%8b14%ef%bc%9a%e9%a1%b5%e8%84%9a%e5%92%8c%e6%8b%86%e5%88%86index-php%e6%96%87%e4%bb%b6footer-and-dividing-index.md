@@ -4,8 +4,6 @@ title: 'WP主题教程#14：页脚和拆分index.php文件(Footer and Dividing I
 date: 2011-08-27T03:32:45+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=904
-permalink: /2011/08/27/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b14%ef%bc%9a%e9%a1%b5%e8%84%9a%e5%92%8c%e6%8b%86%e5%88%86index-php%e6%96%87%e4%bb%b6footer-and-dividing-index/
 categories:
   - CSS
   - wordpress

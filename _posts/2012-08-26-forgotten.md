@@ -4,8 +4,6 @@ title: 《遗忘》
 date: 2012-08-26T11:15:33+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1143
-permalink: /2012/08/26/forgotten/
 categories:
   - 分享
   - 影视

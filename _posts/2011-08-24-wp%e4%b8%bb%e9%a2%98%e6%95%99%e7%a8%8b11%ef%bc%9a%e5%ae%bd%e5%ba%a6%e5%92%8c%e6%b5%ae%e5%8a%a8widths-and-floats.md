@@ -4,8 +4,6 @@ title: 'WP主题教程#11：宽度和浮动(Widths and Floats)'
 date: 2011-08-24T06:15:55+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=876
-permalink: /2011/08/24/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b11%ef%bc%9a%e5%ae%bd%e5%ba%a6%e5%92%8c%e6%b5%ae%e5%8a%a8widths-and-floats/
 categories:
   - CSS
   - wordpress

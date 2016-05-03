@@ -4,8 +4,6 @@ title: '鸟？？？  [原]'
 date: 2006-11-11T08:00:00+00:00
 author: jeehon
 layout: post
-guid: http://yangerjeehon.blogcn.com/diary,118710193.shtml
-permalink: /2006/11/11/%e9%b8%9f%ef%bc%9f%ef%bc%9f%ef%bc%9f-%e5%8e%9f/
 categories:
   - 我的生活
 ---

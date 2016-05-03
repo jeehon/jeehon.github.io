@@ -4,8 +4,6 @@ title: 初识苏州
 date: 2014-01-05T08:54:08+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1278
-permalink: /2014/01/05/suzhoumemory/
 categories:
   - 分享
   - 生活

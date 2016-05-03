@@ -4,8 +4,6 @@ title: ASP.NET MVC
 date: 2012-10-26T12:22:27+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=1162
-permalink: /2012/10/26/asp-net-mvc/
 categories:
   - .NET MVC
   - 分享

@@ -4,8 +4,6 @@ title: 'WP主题教程#12：格式化日志及其他(Post Formatting and Miscell
 date: 2011-08-25T02:33:15+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=884
-permalink: /2011/08/25/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b12%ef%bc%9a%e6%a0%bc%e5%bc%8f%e5%8c%96%e6%97%a5%e5%bf%97%e5%8f%8a%e5%85%b6%e4%bb%96post-formatting-and-miscellaneous/
 categories:
   - CSS
   - wordpress

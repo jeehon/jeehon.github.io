@@ -4,8 +4,6 @@ title: SAE URL Rewrite
 date: 2011-11-27T09:52:15+00:00
 author: jeehon
 layout: post
-guid: http://jeehon.info/log/?p=971
-permalink: /2011/11/27/sae-url-rewrite/
 categories:
   - PHP
   - 分享
