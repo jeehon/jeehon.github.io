@@ -11,7 +11,7 @@ layout: theme
 					Filed under {{ post.categories }} by {{ site.author_name }}
 				</p>
 			<div class="entry">
-				{{ post.content }}
+				{{ page.content }}
 			</div>
 			
 			<!-- 多说评论框 start -->
@@ -33,3 +33,8 @@ layout: theme
 		</div>
 	</div>
 </div>
+<footer id="foot" class="main-footer">
+	<p>
+		Copyright &copy; <a href="{{ site.baseurl }}/">{{ site.title }}</a>. {{ site.time | date: '%Y' }} &bull; All rights reserved.
+	</p>
+</footer>
