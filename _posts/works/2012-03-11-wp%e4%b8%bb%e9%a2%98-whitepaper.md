@@ -13,6 +13,7 @@ single_image:
   - http://jeehon.info/works/files/2012/03/comment-reply.jpg
 categories:
   - 未分类
+secondary: works
 ---
 该主题完成于2011年底，是我制作的第一个HTML5主题，没有做过多的设计(设计师们都是大神，可惜我不是设计师)，制作之前的整体想法还是简洁，主体突出即可。
 

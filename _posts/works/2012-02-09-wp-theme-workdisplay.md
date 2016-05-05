@@ -11,6 +11,7 @@ single_image:
   - http://jeehon.info/works/files/2012/02/work-home1.png
 categories:
   - 未分类
+secondary: works
 ---
 该主题是在2012年初制作完成的，主要是为了展示自己的作品。主题是由[Yuguo](http://yuguo.us)设计的，很感谢他在工作之余能够抽出时间根据我的需求设计了这个主题。
 
