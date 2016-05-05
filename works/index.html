@@ -17,7 +17,7 @@ layout: works
 	</header>
 	<section id="main" class="content">
 	{% for post in page.posts %}
-		{% if post.secondary == 'works' %}
+		{% if post.secondary != null %}
 		<article id="post-{{post.id}}" class="entry">
 			<header class="entry-head">
 				<h2 class="entrytitle" id="post-{{post.id}}">{{ post.title }}</h2>
