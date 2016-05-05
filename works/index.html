@@ -1,0 +1,41 @@
+---
+layout: works
+---
+
+<div id="page" class="container">
+	<header id="head" role="banner">
+		<hgroup>
+			<h1 class="logo"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+		</hgroup>
+		<nav id="topnav">
+			<ul>
+				<li>首页</li>
+				<li>博客</li>
+				<li>工作</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="main" class="content">
+	{% for post in paginator.posts %}
+		<article id="post-{{post.id}}" class="entry">
+			<header class="entry-head">
+				<h2 class="entrytitle" id="post-{{post.id}}">{{ post.title }}</h2>
+				<p>{{ post.date | date: "%y%m%d" }}</p>
+			</header>
+			<section class="entry-body">
+				{{ post.excerpt }}
+				<a href="{{ post.url }}" class="more-link">Read the rest of this entry »</a>
+			</section>
+			<section class="entry-image">
+				<div class="slides">
+					<div class="slides_container">
+					{{ post.single_image }}
+					</div>
+					<a href="#" class="prev"><img src="{ site.url }}/images/arrow-next.png" width="24" height="43" alt="Arrow Prev"></a>
+					<a href="#" class="next"><img src="{ site.url }}/images/arrow-prev.png" width="24" height="43" alt="Arrow Next"></a>
+				</div>
+				<div id="mask"></div>
+			</section>
+		</article>
+	{% endfor %}
+	</section>
