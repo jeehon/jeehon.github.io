@@ -31,8 +31,8 @@ layout: works
 				<div class="slides">
 					<div class="slides_container">
 					{% for img in post.single_image %}
-						{{ img }}
-					{% endif %}
+						<a href="{{ img }}" target="_blank"><img src="{{ img }}" width="580" height="380" alt="" /></a>
+					{% endfor %}
 					</div>
 					<a href="#" class="prev"><img src="{{ site.url }}/assets/img/arrow-next.png" width="24" height="43" alt="Arrow Prev"></a>
 					<a href="#" class="next"><img src="{{ site.url }}/assets/img/arrow-prev.png" width="24" height="43" alt="Arrow Next"></a>
