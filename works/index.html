@@ -21,10 +21,10 @@ layout: works
 		<article id="post-{{post.id}}" class="entry">
 			<header class="entry-head">
 				<h2 class="entrytitle" id="post-{{post.id}}">{{ post.title }}</h2>
-				<p>{{ post.date | date: "%y%m%d" }}</p>
+				<p>{{ post.date | date_to_string }}</p>
 			</header>
 			<section class="entry-body">
-				{{ post.excerpt }}
+				{{ post.content }}
 				<a href="{{ post.url }}" class="more-link">Read the rest of this entry »</a>
 			</section>
 			<section class="entry-image">
