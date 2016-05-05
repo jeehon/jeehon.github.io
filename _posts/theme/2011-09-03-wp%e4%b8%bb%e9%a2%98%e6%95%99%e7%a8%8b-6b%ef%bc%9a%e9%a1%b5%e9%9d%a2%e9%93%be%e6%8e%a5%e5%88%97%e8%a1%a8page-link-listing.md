@@ -1,0 +1,62 @@
+---
+id: 55
+title: 'WP主题教程 #6b：页面链接列表(Page-Link Listing)'
+date: 2011-09-03T13:23:01+00:00
+author: jeehon
+layout: post
+guid: http://jeehon.info/themes/?p=55
+secondary: theme
+permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-6b%ef%bc%9a%e9%a1%b5%e9%9d%a2%e9%93%be%e6%8e%a5%e5%88%97%e8%a1%a8page-link-listing/
+categories:
+  - WP themes
+tags:
+  - page-link
+  - theme
+  - wordpress
+  - 主题
+---
+既然你应该很熟悉侧边栏的结构了，我们将通过**页面链接列表**来继续了解侧边栏的内容。当完成了侧边栏的常用部分，我将告诉你怎样窗体化你的侧边栏（就是使你的博客可以通过拖拽小工具到侧边栏来添加小工具或者在侧边栏拖动它们来改变它们的位置）。
+
+将下面的代码放在分类模块的上面：
+  
+<strong style="margin-left:2em;"><?php wp_list_pages(); ?></strong>
+  
+[<img src="http://jeehon.info/log/files/2011/08/wp-list-pages.gif" alt="" title="wp-list-pages" width="345" height="168" class="aligncenter size-full wp-image-803" />](http://jeehon.info/log/files/2011/08/wp-list-pages.gif)
+  
+保存文件然后刷新页面，下面是你的页面的样子：
+  
+[<img src="http://jeehon.info/log/files/2011/08/wp-list-pages-listing.gif" alt="" title="wp-list-pages-listing" width="379" height="319" class="aligncenter size-full wp-image-804" />](http://jeehon.info/log/files/2011/08/wp-list-pages-listing.gif)
+  
+默认情况下，你仅有一个“**关于**”页面链接。我在本地博客里加了很多页面和子页面，所以我有四级页面链接。
+
+点击**查看源代码**来看一下**wp\_list\_pages()**为你生成的全部结构和代码，下面是一个例子：
+  
+[<img src="http://jeehon.info/log/files/2011/08/wp-list-pages-default.gif" alt="" title="wp-list-pages-default" width="395" height="194" class="aligncenter size-full wp-image-805" />](http://jeehon.info/log/files/2011/08/wp-list-pages-default.gif)
+  
+首先，用一个列表项(**li**)把所有内容都包住；其次，给这个列表一个名字：**Pages**；接着，在列表项里页面标题下面加入一个无序列表(**ul**)，最后，把每一个链接都放在一对**<li>**、**<//li>**标签里。
+
+在上面的截图中，你可以看到列表中的“**Pages**”标题的字体大小和分类链接列表中的“**Categories**”的大小不匹配。
+
+怎样让它们匹配呢？在**wp\_list\_pages()**里加入**‘title_li=<h2>Pages</h2>’**
+  
+[<img src="http://jeehon.info/log/files/2011/08/title-li.gif" alt="" title="title-li" width="466" height="40" class="aligncenter size-full wp-image-806" />](http://jeehon.info/log/files/2011/08/title-li.gif)
+  
+保存文件并刷新页面，看一下有什么变化。
+  
+[<img src="http://jeehon.info/log/files/2011/08/wp-list-pages-listing-2.gif" alt="" title="wp-list-pages-listing-2" width="380" height="340" class="aligncenter size-full wp-image-807" />](http://jeehon.info/log/files/2011/08/wp-list-pages-listing-2.gif)
+  
+**title_li**是一个用于定制页面链接列表标题外观的属性，**<h2>Pages</h2>**是**title_li**属性的值。
+
+**进一步定制**：
+
+在我的例子中，有四级页面链接。有些页面布局中，侧边栏容纳不了那么多级的链接，为了限制列出来的链接的级数，可以在**wp\_list\_pages()**里加入一个**depth**属性并将其设为**3**.
+  
+[<img src="http://jeehon.info/log/files/2011/08/add-depth3.gif" alt="" title="add-depth3" width="496" height="37" class="aligncenter size-full wp-image-808" />](http://jeehon.info/log/files/2011/08/add-depth3.gif)
+  
+注意，我加的是**depth=3&**而不仅仅是**depth=3**，**&**符号是用来将**depth**属性和**title_li**属性分开的。（如果你只有一个“**关于**”链接，就不会发现任何不同）
+
+下面就是加上**depth=3**之后的页面：（把这个截图和上面的截图对比一下就可以看出差异了）
+  
+[<img src="http://jeehon.info/log/files/2011/08/wp-list-pages-listing-3.gif" alt="" title="wp-list-pages-listing-3" width="388" height="274" class="aligncenter size-full wp-image-809" />](http://jeehon.info/log/files/2011/08/wp-list-pages-listing-3.gif)
+
+[返回WordPress主题系列教程的开始](http://jeehon.info/themes/)
