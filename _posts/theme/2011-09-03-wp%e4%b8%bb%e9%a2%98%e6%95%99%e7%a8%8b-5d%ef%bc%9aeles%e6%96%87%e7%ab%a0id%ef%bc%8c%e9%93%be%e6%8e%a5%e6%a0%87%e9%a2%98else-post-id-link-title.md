@@ -3,7 +3,7 @@ id: 48
 title: 'WP主题教程 #5d：Eles,文章ID，链接标题(Else, Post ID, Link Title)'
 date: 2011-09-03T13:19:03+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=48
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-5d%ef%bc%9aeles%e6%96%87%e7%ab%a0id%ef%bc%8c%e9%93%be%e6%8e%a5%e6%a0%87%e9%a2%98else-post-id-link-title/

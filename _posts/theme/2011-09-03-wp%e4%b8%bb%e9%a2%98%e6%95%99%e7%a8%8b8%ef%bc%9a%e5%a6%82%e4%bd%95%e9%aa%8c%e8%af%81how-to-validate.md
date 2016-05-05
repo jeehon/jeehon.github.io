@@ -3,7 +3,7 @@ id: 65
 title: 'WP主题教程#8：如何验证(How to Validate)'
 date: 2011-09-03T13:28:21+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=65
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b8%ef%bc%9a%e5%a6%82%e4%bd%95%e9%aa%8c%e8%af%81how-to-validate/

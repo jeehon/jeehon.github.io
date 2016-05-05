@@ -3,7 +3,7 @@ id: 67
 title: 'WP主题教程#9：Style.css和CSS简介(Style.css and CSS Intro)'
 date: 2011-09-03T13:29:12+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=67
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b9%ef%bc%9astyle-css%e5%92%8ccss%e7%ae%80%e4%bb%8bstyle-css-and-css-intro/

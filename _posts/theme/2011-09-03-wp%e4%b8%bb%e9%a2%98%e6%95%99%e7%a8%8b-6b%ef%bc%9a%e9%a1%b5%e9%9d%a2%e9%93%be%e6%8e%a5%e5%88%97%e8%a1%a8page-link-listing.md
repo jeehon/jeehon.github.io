@@ -3,7 +3,7 @@ id: 55
 title: 'WP主题教程 #6b：页面链接列表(Page-Link Listing)'
 date: 2011-09-03T13:23:01+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=55
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-6b%ef%bc%9a%e9%a1%b5%e9%9d%a2%e9%93%be%e6%8e%a5%e5%88%97%e8%a1%a8page-link-listing/

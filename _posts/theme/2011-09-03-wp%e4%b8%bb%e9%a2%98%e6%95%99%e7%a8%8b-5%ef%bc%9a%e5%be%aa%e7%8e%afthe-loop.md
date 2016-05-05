@@ -3,7 +3,7 @@ id: 42
 title: wp主题教程-5：循环(The Loop)
 date: 2011-09-03T13:11:11+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=42
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-5%ef%bc%9a%e5%be%aa%e7%8e%afthe-loop/

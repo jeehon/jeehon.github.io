@@ -3,7 +3,7 @@ id: 63
 title: 'WP主题教程#7：页脚（Footer）'
 date: 2011-09-03T13:26:59+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=63
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b7%ef%bc%9a%e9%a1%b5%e8%84%9a%ef%bc%88footer%ef%bc%89/

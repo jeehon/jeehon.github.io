@@ -3,7 +3,7 @@ id: 51
 title: 'WP主题教程 #5e：文章导航链接(Posts Nav Link)'
 date: 2011-09-03T13:20:54+00:00
 author: jeehon
-layout: post
+layout: theme-post
 guid: http://jeehon.info/themes/?p=51
 secondary: theme
 permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-5e%ef%bc%9a%e6%96%87%e7%ab%a0%e5%af%bc%e8%88%aa%e9%93%be%e6%8e%a5posts-nav-link/

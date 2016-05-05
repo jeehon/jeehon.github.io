@@ -1,0 +1,76 @@
+---
+layout: theme
+---
+
+<div id="container">
+	{% include sidebar.html %}
+	<div id="content">
+		<div class="post" id="post-{{ page.id }}">
+			<h2><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
+				<p class="postmetadata">
+					Filed under {{ post.categories }} by {{ site.author_name }}
+				</p>
+			<div class="entry">
+				{{ post.content }}
+			</div>
+			
+			<!-- 多说评论框 start -->
+			<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+			<!-- 多说评论框 end -->
+			<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+			<script type="text/javascript">
+			var duoshuoQuery = {short_name:"jeehon"};
+				(function() {
+					var ds = document.createElement('script');
+					ds.type = 'text/javascript';ds.async = true;
+					ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+					ds.charset = 'UTF-8';
+					(document.getElementsByTagName('head')[0] 
+					 || document.getElementsByTagName('body')[0]).appendChild(ds);
+				})();
+				</script>
+			<!-- 多说公共JS代码 end -->
+		</div>
+	</div>
+</div>
+<section id="single" class="content">
+	<article id="post-{{ page.id }}" class="entry">
+		<header class="entry-head">
+			<div class="meta-date">
+				<span class="meta-month">{{ page.date | date: "%m" }}</span>
+				<br />
+				<span class="meta-day">{{ page.date | date: "%d" }}</span>
+			</div>
+			<h2 class="entrytitle" id="post-{{ page.id }}">
+				<a title="{{ page.title }}" href="{{ page.url }}" rel="bookmark">{{ page.title }}</a>
+			</h2>
+			<p>
+				<span class="meta-time">Year {{ page.date | date: "%Y" }}</span>
+				<span>|</span>
+				<span class="meta-author"><a href="{{ site.author_url }}" target="_blank">{{ site.author_name }}</a></span>
+				<span>|</span>
+				<span class="meta-category">{{ page.categories }}</span>
+			</p>
+		</header>
+		<section class="entry-body">
+			{{ page.content }}
+		</section>
+		
+		<!-- 多说评论框 start -->
+		<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+		<!-- 多说评论框 end -->
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		var duoshuoQuery = {short_name:"jeehon"};
+			(function() {
+				var ds = document.createElement('script');
+				ds.type = 'text/javascript';ds.async = true;
+				ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+				ds.charset = 'UTF-8';
+				(document.getElementsByTagName('head')[0] 
+				 || document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+			</script>
+		<!-- 多说公共JS代码 end -->
+	</article>
+</section>
