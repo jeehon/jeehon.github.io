@@ -17,11 +17,11 @@ layout: theme
 	{% include sidebar.html %}
 	<div id="content">
 		{% for post in site.posts %}
-			{% if post.secondary == 'theme' %}
+			{% if post.secondary == 'themehomepage' %}
 				<div class="post" id="post-{{post.id}}">
 					<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 						<p class="postmetadata">
-							Filed under&#58;{{ post.categories }} by {{ post.author_name }}
+							Filed under {{ post.categories }} by {{ site.author_name }}
 						</p>
 					<div class="entry">
 						{{ post.content }}
