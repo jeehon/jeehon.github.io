@@ -5,8 +5,8 @@ date: 2011-09-03T13:25:23+00:00
 author: jeehon
 layout: theme-post
 guid: http://jeehon.info/themes/?p=59
-secondary: theme
-permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b6d%ef%bc%9a%e6%90%9c%e7%b4%a2%e8%a1%a8%e5%8d%95%e5%92%8c%e6%97%a5%e5%8e%86search-form-and-calendar/
+secondary: themes
+permalink: /themes/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b6d%ef%bc%9a%e6%90%9c%e7%b4%a2%e8%a1%a8%e5%8d%95%e5%92%8c%e6%97%a5%e5%8e%86search-form-and-calendar/
 categories:
   - WP themes
 tags:

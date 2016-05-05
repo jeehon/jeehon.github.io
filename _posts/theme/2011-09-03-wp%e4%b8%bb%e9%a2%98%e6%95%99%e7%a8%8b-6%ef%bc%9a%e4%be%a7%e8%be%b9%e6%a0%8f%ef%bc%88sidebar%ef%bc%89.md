@@ -5,8 +5,8 @@ date: 2011-09-03T13:21:58+00:00
 author: jeehon
 layout: theme-post
 guid: http://jeehon.info/themes/?p=53
-secondary: theme
-permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-6%ef%bc%9a%e4%be%a7%e8%be%b9%e6%a0%8f%ef%bc%88sidebar%ef%bc%89/
+secondary: themes
+permalink: /themes/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b-6%ef%bc%9a%e4%be%a7%e8%be%b9%e6%a0%8f%ef%bc%88sidebar%ef%bc%89/
 categories:
   - WP themes
 tags:

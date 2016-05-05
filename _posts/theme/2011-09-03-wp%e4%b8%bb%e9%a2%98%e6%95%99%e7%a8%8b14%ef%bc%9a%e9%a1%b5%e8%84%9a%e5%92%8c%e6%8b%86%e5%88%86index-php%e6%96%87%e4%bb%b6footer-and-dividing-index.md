@@ -5,8 +5,8 @@ date: 2011-09-03T13:43:10+00:00
 author: jeehon
 layout: theme-post
 guid: http://jeehon.info/themes/?p=79
-secondary: theme
-permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b14%ef%bc%9a%e9%a1%b5%e8%84%9a%e5%92%8c%e6%8b%86%e5%88%86index-php%e6%96%87%e4%bb%b6footer-and-dividing-index/
+secondary: themes
+permalink: /themes/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b14%ef%bc%9a%e9%a1%b5%e8%84%9a%e5%92%8c%e6%8b%86%e5%88%86index-php%e6%96%87%e4%bb%b6footer-and-dividing-index/
 categories:
   - WP themes
 tags:

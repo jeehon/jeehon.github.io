@@ -5,8 +5,8 @@ date: 2011-09-03T13:32:31+00:00
 author: jeehon
 layout: theme-post
 guid: http://jeehon.info/themes/?p=73
-secondary: theme
-permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b12%ef%bc%9a%e6%a0%bc%e5%bc%8f%e5%8c%96%e6%97%a5%e5%bf%97%e5%8f%8a%e5%85%b6%e4%bb%96post-formatting-and-miscellaneous/
+secondary: themes
+permalink: /themes/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b12%ef%bc%9a%e6%a0%bc%e5%bc%8f%e5%8c%96%e6%97%a5%e5%bf%97%e5%8f%8a%e5%85%b6%e4%bb%96post-formatting-and-miscellaneous/
 categories:
   - WP themes
 tags:

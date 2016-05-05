@@ -5,8 +5,8 @@ date: 2011-09-03T13:26:13+00:00
 author: jeehon
 layout: theme-post
 guid: http://jeehon.info/themes/?p=61
-secondary: theme
-permalink: /theme/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b6e%ef%bc%9a%e7%aa%97%e4%bd%93%e5%8c%96%e4%be%a7%e8%be%b9%e6%a0%8f%ef%bc%88widgetizing-sidebar%ef%bc%89/
+secondary: themes
+permalink: /themes/2011/09/03/wp%e4%b8%bb%e9%a2%98%e6%95%99%e7%a8%8b6e%ef%bc%9a%e7%aa%97%e4%bd%93%e5%8c%96%e4%be%a7%e8%be%b9%e6%a0%8f%ef%bc%88widgetizing-sidebar%ef%bc%89/
 categories:
   - WP themes
 tags:
