@@ -16,7 +16,7 @@ layout: works
 		</nav>
 	</header>
 	<section id="main" class="content">
-	{% for post in paginator.posts %}
+	{% for post in site.posts %}
 		<article id="post-{{post.id}}" class="entry">
 			<header class="entry-head">
 				<h2 class="entrytitle" id="post-{{post.id}}">{{ post.title }}</h2>
