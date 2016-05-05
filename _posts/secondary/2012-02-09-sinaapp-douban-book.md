@@ -6,6 +6,7 @@ author: jeehon
 layout: post
 guid: http://jeehon.info/works/?p=17
 permalink: /works/2012/02/09/sinaapp-douban-book/
+secondary: works
 single_image:
   - http://jeehon.info/works/files/2012/02/用户列表.jpg
   - http://jeehon.info/works/files/2012/02/jeehon书单.jpg
@@ -14,7 +15,6 @@ single_image:
   - http://jeehon.info/works/files/2012/02/添加成功.jpg
 categories:
   - 未分类
-secondary: works
 ---
 2011年11月份，新疆的项目已经接近尾声，大部分的功能都实现了，所以11月份时间稍微宽松一些，就跟[Yuguo](http://yuguo.us)合作了这个书单。[书单首页](http://2.readlist.sinaapp.com/user/jeehon)是Yuguo设计实现的，我加了“[用户登录](http://2.readlist.sinaapp.com/login.php)”、“添加书单”等功能。
 
