@@ -17,7 +17,7 @@ layout: works
 	</header>
 	<section id="main" class="content">
 	{% for post in page.posts %}
-		{% if post.secondary != null %}
+		{{ post.secondary }}
 		<article id="post-{{post.id}}" class="entry">
 			<header class="entry-head">
 				<h2 class="entrytitle" id="post-{{post.id}}">{{ post.title }}</h2>
@@ -38,6 +38,5 @@ layout: works
 				<div id="mask"></div>
 			</section>
 		</article>
-		{% endif %}
 	{% endfor %}
 	</section>
