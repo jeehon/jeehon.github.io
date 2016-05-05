@@ -81,7 +81,7 @@ header, footer, section, article, nav, aside {
 
 /* == common == */
 body {
-	background:url(images/bg-work.png) repeat;
+	background:url(./img/bg-work.png) repeat;
 	padding:20px 0;
 	font-family:Arial, Helvetica, Verdana, "Lucida Grande", sans-serif,"微软雅黑";
 	position:relative;
@@ -123,7 +123,7 @@ a:hover {
 }
 
 #head h1 a{
-	background: url(images/logo.png) no-repeat scroll left center transparent;
+	background: url(./img/logo.png) no-repeat scroll left center transparent;
 	text-indent:-999px;
 	display: block;
 	height: 26px;
@@ -339,7 +339,7 @@ a:hover {
 	width: 12px;
 	height: 0;
 	padding-top: 12px;
-	background-image: url(images/pagination.png);
+	background-image: url(./img/pagination.png);
 	background-position: 0 0;
 	float: left;
 	overflow: hidden;
@@ -405,7 +405,7 @@ a:hover {
 }
 
 #resume a{
-	background:url(images/pdf.png) no-repeat scroll 0 0 transparent;
+	background:url(./img/pdf.png) no-repeat scroll 0 0 transparent;
 	display:block;
 	height:24px;
 	color:#333;
