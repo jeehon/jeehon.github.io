@@ -317,7 +317,7 @@ div.aligncenter {
 
 #narrow-column {
 	width: 600px;
-	float: left;
+	margin:0 auto;
 }
 
 #narrow-column p, #narrow-column h3 {
