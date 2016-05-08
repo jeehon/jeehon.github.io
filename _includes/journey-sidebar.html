@@ -1,0 +1,28 @@
+	<div id="sidebar">
+	<div class="sidebar-top"></div>
+		<div class="sidebar-mid">
+		<ul>
+			<li>
+				下一篇: {{ page.next }}<br />
+				上一篇: {{ page.previous }}
+			</li>
+			
+			<!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
+			<li><h2>Author</h2>
+			<p>A little something about you, the author. Nothing lengthy, just an overview.</p>
+			</li>
+			-->
+			<p>您目前正在浏览 {{ page.categories }} 类别.</p>
+
+			<?php /* If this is a yearly archive */ } elseif (is_day()) { ?>
+			<p>您目前正在浏览 <a href="{{site.url}}/">{{ site.title }}</a> 日期存档 {{ page.date }}.</p>
+
+
+			<li><h2>存档</h2>
+				<ul>
+				</ul>
+			</li>
+		</ul>
+		</div>
+	<div class="sidebar-bottom"></div>
+	</div>
