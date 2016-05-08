@@ -1,0 +1,54 @@
+---
+layout: journey
+---
+
+<div id="page">
+	<div id="header">
+		<h1><a href="{{ site.url }}/">{{ site.title }}</a></h1>
+		<ul id="nav">
+			<li class="left"></li>
+			<li><div><a href="http://jeehon.info">Home</a><div></li>
+			<li><div><a href="http://jeehon.info/log">Blog</a><div></li>
+			<li><div><a href="http://jeehon.info/tweets">Twitter</a><div></li>
+			<li><div><a href="http://jeehon.info/log/about">Jeehon</a></div></li>
+			<li class="right"></li>
+		</ul>
+	</div>
+	<div id="mid" class="index">
+		<!-- Start slider -->
+		<div class="stripViewer">
+			<div class="panelContainer">
+			{% for post in site.posts %}
+				{% if post.secondary == 'journey' %}
+				<div class="panel" id="post-{{post.id}}" title="{{ post.title }}">
+					<div class="wrapper">
+						<img src="{{ post.lead_image }}" alt="" width="940" height="600" />
+						<div class="post-title">
+							<a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.excerpt }}">{{ post.title }}</a>
+						</div>
+						<div class="entry">
+							{{ post.content }}
+						</div>
+					</div>
+				</div>
+				{% endif %}
+			{% endfor %}
+				<div class="panel" id="nav-panel">
+					<div class="wrapper">
+						<img src="{{ post.url }}/assets/img/journey/where.jpg" alt="" width="940" height="600" />
+						<div class="post-title">
+							精彩还在继续......
+				    </div>
+						<div class="entry">
+							<span class="big"><a href="" class="rss-big">最近评论</a></span>
+							<ul><li></li>测试评论</ul>
+							<span class="big"><span class="left">新条目</span>
+							<span class="right">旧条目</span></span>
+						</div>
+					</div>
+				</div>
+			</div><!-- .panelContainer -->
+		</div><!--.stripViewer -->
+	</div><!-- .mid -->
+	<div class="stripNavL" id="stripNavL0"><a href="#"><img src="{{ post.url }}/assets/img/journey/left.png" alt="Left" /></a></div>
+	<div class="stripNavR" id="stripNavR0"><a href="#"><img src="{{ post.url }}/assets/img/journey/right.png" alt="Right" /></a></div>

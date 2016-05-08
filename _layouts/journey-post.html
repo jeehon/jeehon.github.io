@@ -1,0 +1,57 @@
+---
+layout: journey
+---
+
+<div id="mid" class="single">
+	<div class="panel-single" id="post-{{ page.id }}" title="{{ page.title }}">
+		<div class="wrapper">
+			<img src="{{ page.single_image }}" alt="" width="940" height="300" />
+			<div class="post-title-single">
+				<a href="{{ page.url }}" rel="bookmark" title="Permanent Link to {{ page.excerpt }}">{{ page.title }}</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="content">
+	<div id="narrow-column">
+		<div class="postmetadata">
+			<div class="content-top"></div>
+			<div class="content-mid">
+			发布于: {{ page.date }} 时间：{{ page.date }}<br />
+			类别: {{ page.categories }}<br />
+			</div>
+			<div class="content-bottom"></div>
+		</div>
+		<div id="thepost">
+			<div class="content-top"></div>
+			<div class="content-mid">
+			{{ page.excerpt }}
+			<p class="serif">阅读全文 &raquo;</p>
+			</div>
+			<div class="content-bottom"></div>
+		</div>
+	</div>
+	{% include sidebar.html %}
+	<div class="clearer"></div>
+	<!-- 多说评论框 start -->
+			<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+			<!-- 多说评论框 end -->
+			<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+			<script type="text/javascript">
+			var duoshuoQuery = {short_name:"jeehon"};
+				(function() {
+					var ds = document.createElement('script');
+					ds.type = 'text/javascript';ds.async = true;
+					ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+					ds.charset = 'UTF-8';
+					(document.getElementsByTagName('head')[0] 
+					 || document.getElementsByTagName('body')[0]).appendChild(ds);
+				})();
+				</script>
+			<!-- 多说公共JS代码 end -->
+	<footer id="foot" class="main-footer">
+		<p>
+			Copyright &copy; <a href="{{ site.baseurl }}/">{{ site.title }}</a>. {{ site.time | date: '%Y' }} &bull; All rights reserved.
+		</p>
+	</footer>
+</div>
