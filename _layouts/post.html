@@ -18,7 +18,17 @@ layout: default
 				<span>|</span>
 				<span class="meta-author"><a href="{{ site.author_url }}" target="_blank">{{ site.author_name }}</a></span>
 				<span>|</span>
-				<span class="meta-category">{{ page.categories }}</span>
+				<span class="meta-category">
+					{% assign number = 0 %}
+					{% for category in page.categories %}
+						{% if number !=0 %}
+							,{{ category }}
+						{% else %}
+							{{ category }}
+							{% assign number = 1%}
+						{% endif %}
+					{% endfor %}
+				</span>
 			</p>
 		</header>
 		<section class="entry-body">
