@@ -19,12 +19,12 @@ layout: default
 				<p>
 					<span class="meta-category">{{ post.categories }}</span>
 					<span>|</span>
-					<span class="meta-comment">{{ post.comments }} Comments</span>
+					<span class="meta-author"><a href="{{ site.author_url }}" target="_blank">{{ site.author_name }}</a></span>
 				</p>
 			</header>
 			<section class="entry-body">
 				{{ post.excerpt }}
-				<a href="{{ post.url }}" class="more-link">Read the rest of this entry »</a>
+				<a href="{{ post.url }}" class="more-link">阅读全文 »</a>
 			</section>
 		</article>
 		{% endif %}
