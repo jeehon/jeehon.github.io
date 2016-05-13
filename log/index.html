@@ -18,8 +18,14 @@ layout: default
 				</h2>
 				<p>
 					<span class="meta-category">
+						{% assign number = 0 %}
 						{% for category in post.categories %}
-						{{ category }},{{ count(post.categories) }}
+							{% if number !=0 %}
+								,{{ category }}
+							{% else %}
+								{{ category }}
+								{% assign number = 1%}
+							{% endif %}
 						{% endfor %}
 					</span>
 					<span>|</span>
