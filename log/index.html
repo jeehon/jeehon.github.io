@@ -19,7 +19,7 @@ layout: default
 				<p>
 					<span class="meta-category">
 						{% for category in post.categories %}
-						{{ category }},{{ post.categories.Count }}
+						{{ category }},{{ count(post.categories) }}
 						{% endfor %}
 					</span>
 					<span>|</span>
