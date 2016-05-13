@@ -17,7 +17,7 @@ layout: default
 					<a title="{{ post.title }}" href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
 				</h2>
 				<p>
-					<span class="meta-time">Year {{ page.date | date: "%Y" }}</span>
+					<span class="meta-time">Year {{ post.date | date: "%Y" }}</span>
 					<span>|</span>
 					<span class="meta-category">
 						{% assign number = 0 %}
