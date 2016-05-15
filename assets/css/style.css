@@ -85,7 +85,7 @@ body {
 
 
 #page {
-	width:960px;
+	max-width:960px;
 	color: #555555;
 	line-height: 1.8em;
 	margin: 0 auto;
